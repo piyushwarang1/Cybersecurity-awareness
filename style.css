@@ -1,0 +1,22 @@
+*{
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hero{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(202, 51, 51, 0.758);
+}
+.hero .logo{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.firstsection{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
