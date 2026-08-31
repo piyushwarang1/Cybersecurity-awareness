@@ -14,9 +14,139 @@ box-sizing: border-box;
     text-align: center;
     padding-top: 10px;
     text-transform: uppercase;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 4px;
 }
 .firstsection{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
+    
+}
+.firstsection .rightfirst{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: black;
+}
+.firstsection .leftfirst{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: black;
+
+}
+.firstsection .leftfirst h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#element{
+    
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    display:block;
+    margin-right: 20%;
+    margin-left: 5%;
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.typed-cursor {
+  color: currentColor;
+}
+.btn_learn{
+    background-color: rgba(202, 51, 51, 0.758);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    display:block;
+    margin-left:30%;
+    margin-right: 30%;
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 30%; 
+
+}
+.cardsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    display:flex;
+    flex-wrap: wrap;
+    height: 60%;
+}
+.card h3{
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.card p{
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 1.25rem;
+}
+.secondsection{
+    height: 70vh;
+    width: 100%;
+    background-color: rgba(168, 26, 26, 0.748);
+}
+.secondsection h2{
+   
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.thiredsection{
+    height: 70vh;
+    width: 100%;
+    background: rgba(87, 17, 17, 0.663);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.thiredsection h2{
+    
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
