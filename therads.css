@@ -69,6 +69,7 @@ body {
     height: 300px;
     width: 100%;
     background: #111;
+    
 }
 .card-section {
     display: flex;
@@ -76,7 +77,7 @@ body {
     width: 100%;
     background: #111;
     padding: 20px;
-    space-between: 20px;
+    gap: 15px;
 }
 .card {
     flex: 1;
@@ -86,5 +87,105 @@ body {
     border-radius: 10%;
     height: 250px;
     margin: 10px;
-    background-color: rgba(202, 51, 51, 0.85);
+    background-color: rgba(73, 51, 51, 0.85);
+}
+.secondsection {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #282626;
+    flex-direction: column;
+}
+
+.secondsection .title {
+    margin-left:20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.secondsection .title h3 {
+    color: white;
+    font-size: clamp(1.4rem, 2vw, 2.4rem);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 10px;
+}
+.secondsection .title p {
+    color: white;
+    font-size: clamp(1.4rem, 2vw, 2.4rem);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 10px;
+}
+.phishing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.phishing-grid .phishing-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.thirdsection {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #423535;
+    flex-direction: column;
+}
+.thirdsection .title {
+    margin-left:20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.thirdsection .title h3 {
+    color: white;
+    font-size: clamp(1.4rem, 2vw, 2.4rem);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 10px;
+}
+.thirdsection .malware-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+.thirdsection .malware-grid .malware-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.forthsection {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #282626;
+    flex-direction: column;
+}
+.forthsection .title {
+    margin-left:20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.forthsection .social-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+.forthsection .social-grid .social-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
