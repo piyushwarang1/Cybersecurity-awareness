@@ -97,6 +97,7 @@ body {
     flex-direction: column;
 }
 
+
 .secondsection .title {
     margin-left:20px;
     padding: 20px;
@@ -187,5 +188,36 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 20px;
+}
+.sec-container{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.sec{
+  flex-direction: column;
+}
+
+.sec h3{
+    padding: 20px;
+}
+.sec a{
+    display: flex;
+  flex-direction: row;
+  padding:20px;
+}
+.footer{
+    height: auto;
+    background: #0b0b12;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer p{
+    margin-left: 80%;
     padding: 20px;
 }
