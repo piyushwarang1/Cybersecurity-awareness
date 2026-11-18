@@ -16,7 +16,11 @@ Create a pull request and contribute to the project
 
 <img width="1917" height="917" alt="Screenshot 2026-11-18 153445" src="https://github.com/user-attachments/assets/e6345f16-1e20-46db-aa8e-d228028d84ca" />
 
-# would like to suggest or found an issue
+# If you would like to suggest or have found an issue
 
 Use the Issues tab to create an issue, and I will look after it
+
+# How to clone or use
+
+Download the file or use git to host it locally via Live Server or online using providers like Vercel
 
