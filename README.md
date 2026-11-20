@@ -4,7 +4,7 @@ A basic cybersecurity awareness website made by Piyush
 
 # Introduction
 
-This website is used to create awareness among people bout cybersecurty and tech
+This website raises awareness about cybersecurity and tech and helps people stay safe and secure. It has multiple pages about attacks and threats and fundamentals about cybersecurity.
 
 # Want to improve?
 
