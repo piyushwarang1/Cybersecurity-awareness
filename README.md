@@ -10,7 +10,7 @@ This website is used to create awareness among people bout cybersecurty and tech
 
 Create a pull request and contribute to the project
 
-#Images
+# Images
 
 <img width="1917" height="910" alt="Screenshot 2026-11-18 230610" src="https://github.com/user-attachments/assets/d4279a8e-b896-427f-aff2-95714d1ac512" />
 
