@@ -4,7 +4,7 @@ A basic cybersecurity awareness website made by Piyush
 
 # Introduction
 
-This website raises awareness about cybersecurity and tech and helps people stay safe and secure. It has multiple pages about attacks and threats and fundamentals about cybersecurity.
+This website raises awareness about cybersecurity and tech and helps people stay safe and secure. It includes multiple pages on attacks, threats, and cybersecurity fundamentals.
 
 # Want to improve?
 
@@ -21,6 +21,12 @@ Create a pull request and contribute to the project
 Use the Issues tab to create an issue, and I will look after it
 
 # How to clone or use
+ For cloning, use the Git CLI and use the following command
+ 
+ gh repo clone piyushwarang1/Cybersecurity-awareness
 
-Download the file or use git to host it locally via Live Server or online using providers like Vercel
+ or directly download it from the repo 
 
+ # How to host
+
+ To host, use a hosting service provider like Vercel, etc., connect the GitHub repo, and deploy it
